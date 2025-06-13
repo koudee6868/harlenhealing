@@ -48,7 +48,7 @@ const SessionCustom = ({
       description:
         "Simple integration process with comprehensive documentation and dedicated support team.",
       image: "/chuyenhoa.jpg",
-      link: "/chuyen-hoa", // Ví dụ link
+      link: "/transmutation", // Ví dụ link
     },
     {
       id: "session-4",
@@ -56,7 +56,7 @@ const SessionCustom = ({
       description:
         "Fully responsive design that works seamlessly across all devices and screen sizes. Perfect for any platform.",
       image: "/dinhhuong.jpg",
-      link: "/dinh-huong", // Ví dụ link
+      link: "/unlock-direction", // Ví dụ link
     },
     {
       id: "session-5",
