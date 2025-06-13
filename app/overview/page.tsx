@@ -23,8 +23,8 @@ interface OverviewData {
     authorImage: string;
 }
 
-export default function Overview({ post = defaultPost }: { post?: OverviewData }) {
-    const { title, image, description } = post;
+export default function Overview() {
+    const { title, image, description } = defaultPost;
     return (
         <section className="py-8">
             <div className="container">

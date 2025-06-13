@@ -25,8 +25,8 @@ interface TransmutationData {
     authorImage: string;
 }
 
-const TransmutationSection = ({ post = defaultPost }: { post?: TransmutationData }) => {
-    const { title, authorName, image, pubDate, description, authorImage } = post;
+const TransmutationSection = () => {
+    const { title, authorName, image, pubDate, description, authorImage } = defaultPost;
     return (
         <section className="py-8">
             <div className="container">

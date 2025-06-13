@@ -23,8 +23,8 @@ interface SoulTalkData {
 }
 
 // Tối ưu: Đặt component chính làm default export và đổi tên cho rõ ràng
-export default function SoulTalkPage({ post = defaultPost }: { post?: SoulTalkData }) {
-    const { title, authorName, image, pubDate, description, authorImage } = post;
+export default function SoulTalkPage() {
+    const { title, authorName, image, pubDate, description, authorImage } = defaultPost;
     return (
         <section className="py-8">
             <div className="container">
