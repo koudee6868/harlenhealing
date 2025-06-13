@@ -23,8 +23,8 @@ interface OverviewData {
     authorImage: string;
 }
 
-const Overview = ({ post = defaultPost }: { post?: OverviewData }) => {
-    const { title, authorName, image, pubDate, description, authorImage } = post;
+export default function Overview({ post = defaultPost }: { post?: OverviewData }) {
+    const { title, image, description } = post;
     return (
         <section className="py-8">
             <div className="container">
@@ -149,16 +149,3 @@ const Overview = ({ post = defaultPost }: { post?: OverviewData }) => {
         </section>
     );
 };
-
-export { Overview };
-
-export default function Home() {
-    return (
-        // Thẻ <main> giờ đây chỉ là một thẻ bao bọc bình thường
-        <main>
-            <section className="flex justify-center">
-                <Overview></Overview>
-            </section>
-        </main>
-    );
-}

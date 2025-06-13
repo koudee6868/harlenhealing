@@ -1,10 +1,8 @@
-
 import { Lightbulb } from "lucide-react";
-
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Particles } from "@/components/magicui/particles";
 
+// Dữ liệu không thay đổi
 const defaultPost = {
     title: "SOUL TALK SESSION",
     authorName: "John Doe",
@@ -24,7 +22,8 @@ interface SoulTalkData {
     authorImage: string;
 }
 
-const SoulTalk = ({ post = defaultPost }: { post?: SoulTalkData }) => {
+// Tối ưu: Đặt component chính làm default export và đổi tên cho rõ ràng
+export default function SoulTalkPage({ post = defaultPost }: { post?: SoulTalkData }) {
     const { title, authorName, image, pubDate, description, authorImage } = post;
     return (
         <section className="py-8">
@@ -37,17 +36,6 @@ const SoulTalk = ({ post = defaultPost }: { post?: SoulTalkData }) => {
                     <h3 className="text-muted-foreground max-w-3xl text-lg md:text-xl">
                         {description}
                     </h3>
-                    {/* <div className="flex items-center gap-3 text-sm md:text-base">
-                        <Avatar className="h-8 w-8 border">
-                            <AvatarImage src={authorImage} />
-                            <AvatarFallback>{authorName.charAt(0)}</AvatarFallback>
-                        </Avatar>
-                        <span>
-                            <a href="#" className="font-semibold">
-                                {authorName}
-                            </a>
-                        </span>
-                    </div> */}
                     <img
                         src={image}
                         alt="placeholder"
@@ -148,18 +136,5 @@ const SoulTalk = ({ post = defaultPost }: { post?: SoulTalkData }) => {
                 </div>
             </div>
         </section>
-    );
-};
-
-export { SoulTalk };
-
-export default function Home() {
-    return (
-        // Thẻ <main> giờ đây chỉ là một thẻ bao bọc bình thường
-        <main>
-            <section className="flex justify-center">
-                <SoulTalk></SoulTalk>
-            </section>
-        </main>
     );
 }
