@@ -15,7 +15,7 @@ const defaultPost = {
     authorImage: "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/avatar-2.webp",
 };
 
-interface SoulTalkData {
+interface ShadowWorkData {
     title: string;
     authorName: string;
     image: string;
@@ -24,7 +24,7 @@ interface SoulTalkData {
     authorImage: string;
 }
 
-const SoulTalk = ({ post = defaultPost }: { post?: SoulTalkData }) => {
+const ShadowWork = ({ post = defaultPost }: { post?: ShadowWorkData }) => {
     const { title, authorName, image, pubDate, description, authorImage } = post;
     return (
         <section className="py-8">
@@ -151,14 +151,14 @@ const SoulTalk = ({ post = defaultPost }: { post?: SoulTalkData }) => {
     );
 };
 
-export { SoulTalk };
+export { ShadowWork };
 
 export default function Home() {
     return (
         // Thẻ <main> giờ đây chỉ là một thẻ bao bọc bình thường
         <main>
             <section className="flex justify-center">
-                <SoulTalk></SoulTalk>
+                <ShadowWork></ShadowWork>
             </section>
         </main>
     );
