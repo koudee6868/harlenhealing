@@ -20,8 +20,8 @@ interface SessionCustomProps {
 }
 
 const SessionCustom = ({
-  heading = "Powerful Features",
-  description = "Discover the powerful features that make our platform stand out from the rest. Built with the latest technology and designed for maximum productivity.",
+  heading = "Dịch vụ coaching 1:1",
+  description = "Bước vào hành trình khám phá những năng lực ẩn sâu trong tâm trí và vũ trụ. Mỗi tính năng là một cánh cổng mở ra chiều không gian mới – nơi trực giác, năng lượng và tri thức cổ xưa cùng hòa quyện.",
   linkUrl = "#", // Link chung không còn quan trọng lắm, nhưng vẫn giữ lại
   linkText = "Book a demo",
   // 2. Cập nhật dữ liệu mặc định để có thuộc tính 'link'
@@ -30,7 +30,7 @@ const SessionCustom = ({
       id: "session-1",
       title: "Soul Talk",
       description:
-        "Clean and intuitive interface built with the latest design principles. Optimized for the best user experience.",
+        "Kết nối sâu sắc với nội tâm qua giao diện tĩnh tại và thiền định. Được thiết kế để khơi dậy trực giác và mở rộng tầng ý thức cao hơn.",
       image: "/soultalk.jpg",
       link: "/soul-talk", // Ví dụ link
     },
@@ -38,31 +38,31 @@ const SessionCustom = ({
       id: "session-2",
       title: "Shadow Work",
       description:
-        "Fully responsive design that works seamlessly across all devices and screen sizes. Perfect for any platform.",
+        "Là hành trình đối diện, nhìn thấy và chữa lành những phần bị chối bỏ, bị tổn thương hoặc bị kìm nén trong tiềm thức của bạn , những phần bạn không muốn ai biết, thậm chí chính bạn cũng không dám nhìn thẳng",
       image: "/shadowwork.jpg",
       link: "/shadow-work", // Ví dụ link
     },
     {
       id: "session-3",
-      title: "Chuyển Hóa",
+      title: "Chuyển Hóa / Transmutation",
       description:
-        "Simple integration process with comprehensive documentation and dedicated support team.",
+        "Gỡ bỏ niềm tin giới hạn - Kết nối với bản thân thật - Làm lại từ bên trong để cảm xúc, hành vi, mối quan hệ và hiện thực bên ngoài cùng thay đổi",
       image: "/chuyenhoa.jpg",
       link: "/transmutation", // Ví dụ link
     },
     {
       id: "session-4",
-      title: "Định Hướng",
+      title: "Định Hướng / Unlock True Direction",
       description:
-        "Fully responsive design that works seamlessly across all devices and screen sizes. Perfect for any platform.",
+        "Cảm thấy mất phương hướng, không biết bản thân muốn gì hoặc nên đi đâu. Luôn cảm thấy lạc lõng, hoang mang, thay đổi liên tục nhưng không thật sự hiểu rõ chính mình.",
       image: "/dinhhuong.jpg",
       link: "/unlock-direction", // Ví dụ link
     },
     {
       id: "session-5",
-      title: "Tổng Quan",
+      title: "Tổng Quan Cá Nhân",
       description:
-        "Simple integration process with comprehensive documentation and dedicated support team.",
+        "Phân tích tổng quan con người bạn qua nhiều góc nhìn. Bản đồ sao - Thần số học - Tử vi",
       image: "/overview.jpg",
       link: "/overview", // Ví dụ link
     },

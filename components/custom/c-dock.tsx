@@ -1,6 +1,6 @@
 "use client";
 
-import { CalendarIcon, HomeIcon, MailIcon, PencilIcon } from "lucide-react";
+import { AlignCenterHorizontal, Blend, BrainCircuit, Bubbles, Cable, CalendarIcon, Dna, HomeIcon, MailIcon, PencilIcon } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 
@@ -64,29 +64,34 @@ const Icons = {
 const DATA = {
   navbar: [
     { href: "/", icon: HomeIcon, label: "Trang chủ" },
-    { href: "/contact", icon: PencilIcon, label: "Book lịch" },
+    { href: "https://www.tiktok.com/@harlenhealing?_t=ZS-8xEE6hst6PP&_r=1", icon: Blend, label: "Book lịch" },
   ],
   contact: {
     social: {
-      GitHub: {
+      Soul_Talk: {
         name: "Soul Talk",
         url: "/soul-talk",
-        icon: Icons.github,
+        icon: AlignCenterHorizontal,
       },
-      LinkedIn: {
+      Shadow_Work: {
         name: "Shadow Work",
         url: "/shadow-work",
-        icon: Icons.linkedin,
+        icon: BrainCircuit,
       },
-      X: {
+      Direction: {
         name: "Transmutation",
         url: "/transmutation",
-        icon: Icons.x,
+        icon: Cable,
       },
-      email: {
+      Overview: {
         name: "Overview",
         url: "/overview",
-        icon: Icons.email,
+        icon: Bubbles,
+      },
+      Transmutation: {
+        name: "Transmutation",
+        url: "/transmutation",
+        icon: Dna,
       },
     },
   },

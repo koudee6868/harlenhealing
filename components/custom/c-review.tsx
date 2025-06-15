@@ -5,7 +5,7 @@ const ReviewCustom = () => {
     <section className="pb-22">
       <div className="container">
         <div className="flex flex-col gap-6 text-center">
-          <p className="font-medium">4500+ Satisfied Customers</p>
+          <p className="font-medium">Đánh giá của khách hàng</p>
           <h2 className="text-4xl font-medium md:text-5xl">
             Hành Trình Chữa Lành & Khai Sáng
           </h2>
@@ -14,7 +14,7 @@ const ReviewCustom = () => {
           <div className="grid gap-16 lg:grid-cols-3 xl:gap-24">
             <div className="flex flex-col gap-10 border-border sm:flex-row lg:col-span-2 lg:border-r lg:pr-16 xl:pr-24">
               <img
-                src="/ava1.jpg"
+                src="/1.jpg"
                 alt="placeholder"
                 className="aspect-29/35 h-full w-full max-w-60 rounded-2xl object-cover"
               />
@@ -29,10 +29,10 @@ const ReviewCustom = () => {
                     </p>
                     <p className="text-muted-foreground">Marketing Manager</p>
                   </div>
-                  <img
+                  {/* <img
                     src="https://deifkwefumgah.cloudfront.net/shadcnblocks/block/logos/company/fictional-company-logo-2.svg"
                     alt="logo"
-                  />
+                  /> */}
                 </div>
               </div>
             </div>
@@ -59,7 +59,7 @@ const ReviewCustom = () => {
           <div className="grid gap-16 lg:grid-cols-3 xl:gap-24">
             <div className="flex flex-col gap-10 border-border sm:flex-row lg:col-span-2 lg:border-r lg:pr-16 xl:pr-24">
               <img
-                src="/ava2.jpg"
+                src="/2.jpg"
                 alt="placeholder"
                 className="aspect-29/35 h-full w-full max-w-60 rounded-2xl object-cover"
               />
@@ -74,10 +74,10 @@ const ReviewCustom = () => {
                     </p>
                     <p className="text-muted-foreground">Creative Director</p>
                   </div>
-                  <img
+                  {/* <img
                     src="https://deifkwefumgah.cloudfront.net/shadcnblocks/block/logos/company/fictional-company-logo-3.svg"
                     alt="logo"
-                  />
+                  /> */}
                 </div>
               </div>
             </div>
