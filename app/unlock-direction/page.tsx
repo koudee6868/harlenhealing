@@ -15,7 +15,7 @@ export default function DirectionPage() {
             heading: "BẠN ĐÃ SẴN SÀNG TÌM LỐI ĐI RIÊNG?",
             description:
                 "Đôi khi câu trả lời bạn tìm kiếm đã luôn ở bên trong. Hãy để tôi giúp bạn lắng nghe và giải mã những thông điệp đó.",
-            primaryButton: { text: "Tìm hướng đi của bạn", url: "#" },
+            primaryButton: { text: "Tìm hướng đi của bạn", url: "https://docs.google.com/forms/d/1VRBGVeSNHqmVBWDiswiGHqWs2OoIl7Yobj3cneeaorI/edit" },
             secondaryButton: { text: "Khám phá dịch vụ khác", url: "/" },
         },
     };

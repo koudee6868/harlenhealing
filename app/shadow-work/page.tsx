@@ -15,7 +15,7 @@ export default function ShadowWorkPage() {
             heading: "BẠN CÓ DÁM ĐỐI DIỆN VỚI BÓNG TỐI?",
             description:
                 "Chữa lành không phải là loại bỏ bóng tối, mà là học cách ôm lấy nó. Hãy để tôi đồng hành cùng bạn trên hành trình dũng cảm này.",
-            primaryButton: { text: "Đặt lịch ở đây nè", url: "#" },
+            primaryButton: { text: "Đặt lịch ở đây nè", url: "https://docs.google.com/forms/d/1layHtoW5lcCI8uukiHODVcA-e_tq8JPkWJp1XhrnYok/edit" },
             secondaryButton: { text: "Xem các dịch vụ khác", url: "/" },
         },
     };
