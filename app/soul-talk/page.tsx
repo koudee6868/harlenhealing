@@ -59,10 +59,10 @@ export default function SoulTalkPage() {
                                     className="w-full sm:w-auto"
                                     asChild
                                 >
-                                    <a href="/about">Khám phá thêm</a>
+                                    <a href="/">Xem các dịch vụ khác</a>
                                 </Button>
                                 <Button className="w-full sm:w-auto" asChild>
-                                    <a href="/booking">Đặt lịch ngay</a>
+                                    <a href="https://docs.google.com/forms/d/1Fmap8o5jlWPE3ACC8l7XvMIL2ddq8hK4kJciy5d1w64/edit">Đặt lịch ở đây nè</a>
                                 </Button>
                             </div>
                         </div>

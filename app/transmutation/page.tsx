@@ -18,8 +18,8 @@ export default function TransmutationPage() {
             heading: "SẴN SÀNG ĐỂ CHUYỂN HOÁ?",
             description:
                 "Đây là không gian an toàn để bạn biến đổi tận gốc những thách thức, không chỉ vượt qua mà còn vươn lên mạnh mẽ hơn từ chính nghịch cảnh.",
-            primaryButton: { text: "Đặt lịch chuyển hoá", url: "/booking" },
-            secondaryButton: { text: "Tìm hiểu thêm", url: "/services" },
+            primaryButton: { text: "Đặt lịch ở đây nè", url: "#" },
+            secondaryButton: { text: "Xem các dịch vụ khác", url: "/" },
         },
     };
 

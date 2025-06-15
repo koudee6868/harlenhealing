@@ -16,8 +16,8 @@ export default function OverviewPage() {
             heading: "BẠN ĐÃ SẴN SÀNG ĐỂ BẮT ĐẦU?",
             description:
                 "Buổi Overview là bước đầu tiên để soi chiếu và làm rõ con đường phía trước. Hãy đặt một lịch hẹn để cùng nhau vẽ nên tấm bản đồ cho riêng bạn.",
-            primaryButton: { text: "Đặt lịch khám phá", url: "/booking" },
-            secondaryButton: { text: "Xem các dịch vụ khác", url: "/services" },
+            primaryButton: { text: "Đặt lịch ở đây nè", url: "#" },
+            secondaryButton: { text: "Xem các dịch vụ khác", url: "/" },
         },
     };
 

@@ -64,7 +64,7 @@ const Icons = {
 const DATA = {
   navbar: [
     { href: "/", icon: HomeIcon, label: "Trang chủ" },
-    { href: "https://www.tiktok.com/@harlenhealing?_t=ZS-8xEE6hst6PP&_r=1", icon: Blend, label: "Book lịch" },
+    { href: "https://www.tiktok.com/@harlenhealing?_t=ZS-8xEE6hst6PP&_r=1", icon: Blend, label: "Tiktok" },
   ],
   contact: {
     social: {

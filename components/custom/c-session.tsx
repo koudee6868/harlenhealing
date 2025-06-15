@@ -75,14 +75,14 @@ const SessionCustom = ({
           <h2 className="mb-3 text-xl font-semibold md:mb-4 md:text-4xl lg:mb-6">
             {heading}
           </h2>
-          <p className="mb-8 text-muted-foreground lg:text-lg">{description}</p>
-          <a
+          <p className="mb-2 text-muted-foreground lg:text-lg">{description}</p>
+          {/* <a
             href={linkUrl}
             className="group flex items-center text-xs font-medium md:text-base lg:text-lg"
           >
             {linkText}
             <ArrowRight className="ml-2 size-4 transition-transform group-hover:translate-x-1" />
-          </a>
+          </a> */}
         </div>
         <div className="grid gap-6 md:grid-cols-2 lg:gap-8">
           {/* Lặp qua mảng sessions thay vì features */}
